@@ -1,6 +1,5 @@
-import {  useState } from "react";
-
 import Aalhad from '../weather'
+import { useState } from "react";
 
 export default function weather() {
     const [state, setState] = useState("")
