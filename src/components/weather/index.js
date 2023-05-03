@@ -15,7 +15,7 @@ const TIME_NOW = new Date().getHours();
 let iconBaseUrl = "http://openweathermap.org/img/wn/";
 let iconFormat = ".png";
 
-export default function ApiExample({NAME}) {
+export default function Api({NAME}) {
     const [data, setData] = useState(undefined);
     const [description, setDescription] = useState(undefined);
     const [temp, setTemp] = useState(undefined);

@@ -1,7 +1,7 @@
 import Aalhad from '../weather'
 import { useState } from "react";
 
-export default function weather() {
+export default function Weather() {
     const [state, setState] = useState("")
     const [data,setData] =useState(null)
     const handleInputChange = (event) => {
