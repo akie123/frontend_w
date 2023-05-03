@@ -9,6 +9,8 @@ import {
 } from "mdb-react-ui-kit";
 import axios from 'axios'
 
+const TIME_NOW = new Date().getHours();
+
 // Icons
 let iconBaseUrl = "http://openweathermap.org/img/wn/";
 let iconFormat = ".png";
