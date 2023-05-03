@@ -1,15 +1,5 @@
-import { useEffect, useMemo, useState } from "react";
-import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardHeader,
-    MDBCol,
-    MDBContainer,
-    MDBRow,
-    MDBIcon,
-    MDBTypography
-} from "mdb-react-ui-kit";
-import axios from 'axios';
+import {  useState } from "react";
+
 import Aalhad from '../weather'
 
 export default function weather() {
